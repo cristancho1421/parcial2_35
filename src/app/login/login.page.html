@@ -16,25 +16,22 @@
     </ion-item>
     <ion-row>
       <ion-col>
-        <ion-button type="submit" (click)="onLogin(email, password)" expand="block">Ingresar</ion-button>
+        <ion-button type="submit" (click)="onLogin(email, password)">Iniciar sesion
+          &nbsp;<ion-icon name="mail-open-outline"></ion-icon>
+        </ion-button>
+        <ion-button size="medium" type="submit" color="light" (click)="onLoginGoogle()">
+          Ingresa con Google &nbsp;<ion-icon name="logo-google"></ion-icon>
+        </ion-button>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col>
-        <p class="ion-text-end">
-          <a href="/olvido-password">Olvidaste tu contraseña?</a>
-        </p>
+          <ion-button size="small" href="/olvido-password">Olvidaste tu contraseña?</ion-button>
       </ion-col>
     </ion-row>
-    <ion-button type="submit" color="light" (click)="onLoginGoogle()" expand="block" >
-      Ingresa con Google
-    </ion-button>
-  </form>
-  <ion-row>
+
         <ion-button size="small" href="/register">Crear Usuario
           <ion-icon name="arrow-forward-circle-outline"></ion-icon></ion-button>
-        
-  </ion-row>
-
-
+  </form>
+ 
 </ion-content>

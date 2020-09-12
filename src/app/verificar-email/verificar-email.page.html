@@ -8,14 +8,23 @@
   <ion-row>
     <ion-col>
       <h2>Gracias por registrarte</h2>
-      <p>Enviamos confirmacion a su correo electronico <strong>{{user.email}}</strong></p>
-      <p>Por favor ingresa a tu correo electronico y da click en el link de verificación</p>
+      <p>Hemos enviado un correo de confirmacion al correo <strong>{{user.email}}</strong></p>
+      <p>Verifica tu bandeja de entrada y haz click en link</p>
     </ion-col>
   </ion-row>
   <ion-row>
     <ion-col>
       <ion-button type="submit" color="primary" expand="block" (click)="onEnviemail()">Enviar verificacion nuevamente</ion-button>
     </ion-col>
+    <ion-col>
+      <ion-button href="./login">Enviar verificacion nuevamente
+      </ion-button>
+    </ion-col>
   </ion-row>
 
 </ion-content>
+<style>
+  ion-col p{
+    text-align:center ;
+  }
+</style>
