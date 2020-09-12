@@ -1,5 +1,7 @@
 {
   "name": "parcial2_35",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

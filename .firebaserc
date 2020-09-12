@@ -1,0 +1,18 @@
+{
+  "targets": {
+    "parcial2-35": {
+      "hosting": {
+        "app": [
+          "parcial2-35"
+        ]
+      }
+    },
+    "parcial2-35-63598": {
+      "hosting": {
+        "app": [
+          "parcial2-35-63598"
+        ]
+      }
+    }
+  }
+}
